@@ -1,0 +1,41 @@
+body {
+	background-color: #e9e9e9;
+	font-family: system-ui;
+}
+
+.painel {
+	background-color: #ffffff;
+    padding: 1rem;
+    margin: 2rem;
+    color: #333;
+    border-radius: 0.4rem;
+}
+
+h1 {
+	text-align: center;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #e9e9e9;
+    margin-bottom: 2rem;
+}
+
+h3, p {
+	text-align: center;
+}
+
+input[type="button" i] {
+	width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+
+input[type="button" i]:hover {
+    background-color: #000;
+}
